@@ -1,15 +1,8 @@
 package com.example.buggy_cars_assignment;
-
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import static com.codeborne.selenide.Condition.attribute;
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 public class BuggyCarMainPageTest {
@@ -25,5 +18,39 @@ public class BuggyCarMainPageTest {
     public void setUp() {
         open("https://buggy.justtestit.org/");
     }
+
+    /*Test registration*/
+    @Test
+    public void userRegistration() {
+
+    }
+
+    /*Test login*/
+    @Test
+    public void userLogin() {
+
+    }
+
+    /*Test update profile details*/
+    @Test
+    public void updateProfileDetails(){
+
+    }
+
+    /*Test vote with comment*/
+    @Test
+    public void voteWithComment(){
+
+    }
+
+    /*Test vote without comment*/
+    @Test
+    public void voteWithoutComment(){
+
+    }
+
+    /*Test Log out from main page*/
+    @Test
+    public void logOutFromMainPage(){}
 
 }
